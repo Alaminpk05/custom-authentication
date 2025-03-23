@@ -4,8 +4,6 @@
 
 list(APPEND FLUTTER_PLUGIN_LIST
   connectivity_plus
-  firebase_auth
-  firebase_core
   objectbox_flutter_libs
 )
 

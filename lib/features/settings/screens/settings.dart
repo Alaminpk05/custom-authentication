@@ -1,6 +1,5 @@
 import 'package:authentication/core/constant/const_string.dart';
 import 'package:authentication/core/routes/route_names.dart';
-import 'package:authentication/dependencies/service_locator.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
@@ -23,7 +22,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
           child: Column(
             children: [
               Text(
-                firebaseAut.currentUser!.displayName!,
+               'name',
                 style: Theme.of(context).textTheme.headlineMedium,
               ),
               SizedBox(height: 3.h),
